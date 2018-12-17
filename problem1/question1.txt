@@ -1,0 +1,24 @@
+
+For c++
+
+points		Time(s)		Estimated pi		Deviation		%error
+10		0.003		4.1410			-1.147			36%
+100		0.567		3.7696			-0.76			24%
+1000		2.675		3.132			0.008			0.25%
+10000		5.347		3.014			0.126			4%
+
+
+For bash
+
+points          Time(s)         Estimated pi            Deviation               %error
+10              0.236  		1.24			1.94			61.81%
+100             0.882          	1.487			1.66			52.90%
+1000           	9.929		1.63			1.50			47.94%
+10000          103.623		1.59			1.54			49.28%
+
+
+1.1: Since c++ code is faster, for bash it gave me about 10000 point while c++ was able to compute more points than what bash does.
+
+1.2: c++ is faster then bash. bash is interpreted language, so it take bash more attempt to compile a code, while c++ does it in so much less time.
+
+1.3: yes there was difference in accuracy becuase bash uses pseudo random numbers for script while in c++ GSL random number is used which is lot more accurate then bash.
